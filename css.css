@@ -1,0 +1,189 @@
+*
+{
+	font-family: Arial;
+}
+body
+{
+	background: #EDEEF0;
+	margin: 0;
+	overflow-x: hidden;
+}
+#Hea
+{
+	background-color: #507299;
+	padding: 10px;
+	padding-left: 120px;
+	margin-bottom: 15px;
+}
+.Wrapp
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0 auto;
+
+
+}
+.MidWrap
+{
+	margin: auto;
+	margin-left: 100px;
+}
+.Text
+{
+	position: relative;
+	background-color: white;
+	width: 500px;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: justify;
+	box-shadow: 0px 0px 5px gray;
+	margin-bottom: 20px;
+}
+
+#Line
+{
+	border-bottom: 3px solid #D0D0D0;
+}
+.But
+{
+	color: steelblue;
+	border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+#LBut
+{
+	position: absolute;
+	left: 0;
+}
+#CBut
+{
+	position: absolute;
+	right: 0;
+}
+
+#image
+{
+	width: inherit;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#BlockHeaderLine
+{
+	position: absolute;
+	width: 100%;
+	margin-left: -20px;
+	border-bottom: 3px solid #D0D0D0;
+}
+
+#List
+{
+	text-align: left;
+	background-color: inherit;
+	color: steelblue;
+	margin-top: -15px;
+
+	
+}
+ul
+{
+	display: table;
+}
+li
+{
+	cursor: pointer;
+	list-style-type: none;
+	width: 178px;
+	padding: 10px;
+}
+li:hover
+{
+	background-color: #C8D2E6;
+	
+}
+
+#WrapRight1
+{
+	width: 150px;
+	text-align: left;
+	position: fixed;
+	height: auto;
+	margin-left: 1250px;
+}
+#WrapRight2
+{
+	width: 150px;
+	text-align: left;
+	position: fixed;
+	height: auto;
+	margin-left: 1250px;
+	margin-top: 200px;
+}
+
+#SomeNewHeader
+{
+	font-weight: bold;
+	width: 100px;
+}
+
+#UsefulInf
+{
+	background-color: #EDEEF0;
+}
+
+#Foo
+{
+	background-color: white;
+	color: gray;
+	margin-bottom: -15px;
+	text-align: center;
+}
+
+p::selection
+{
+	color: green;
+	background-color:#E0E4EA;
+}
+
+@media (max-width: 850px)
+{
+	#List
+	{
+		margin: auto;
+		width: 420px;
+		position: static;
+	}
+	ul
+	{
+		margin: 0;
+		padding: 4px;
+	}
+	
+	li
+	{
+		white-space: normal;
+		word-break:break-all;
+		line-height: 3.3;
+		padding: 10px;
+		margin-right: 5px;
+		list-style-type: none;
+		display: inline;
+	}
+
+	.MidWrap
+	{
+		margin: 0 auto;
+	}
+	.Wrapp
+	{
+		margin: auto;
+		width: 100%;
+	}
+
+}
